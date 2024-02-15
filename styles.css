@@ -1,6 +1,9 @@
-* {
-    margin-left: 20px;
-    margin-right: 20px;
+
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 h1 {
@@ -8,16 +11,26 @@ h1 {
     padding: 20px;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 20px 20px 20px;
 }
 
 .recetas-card {
     background-color: rgb(179, 231, 214);
     padding: 40px 40px;
     text-align: center;
+    margin: 0px 20px;
 }
 
-li {
+.receta {
     display: inline-block;
     background-color: whitesmoke;
-    padding-bottom: 40px;
+    padding: 20px 20px 5px 20px;
+    color: black;
+    margin: 20px;
+    list-style-type: none;
+}
+
+img {
+    height: 150px;
+    width: auto ;
 }
